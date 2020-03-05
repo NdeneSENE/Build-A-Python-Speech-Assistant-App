@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/python
-# Edit at https://www.gitignore.io/?templates=python
+# Created by https://www.gitignore.io/api/venv,python
+# Edit at https://www.gitignore.io/?templates=venv,python
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -107,4 +107,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/python
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json
+
+# End of https://www.gitignore.io/api/venv,python
